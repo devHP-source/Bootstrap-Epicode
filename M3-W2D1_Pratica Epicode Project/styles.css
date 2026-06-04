@@ -108,93 +108,97 @@ body {
   background-color: rgba(255, 255, 255, 0.05);
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 20px;
-      padding: 8px 18px;
-      font-size: 0.85rem;
-      font-weight: 500;
-      transition: var(--smooth-transition);
-    }
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: var(--smooth-transition);
+}
 
-    .btn.btn-apple-toggle:hover {
-      background-color: rgba(255, 255, 255, 0.12);
-      border-color: rgba(255, 255, 255, 0.2);
-    }
+.btn.btn-apple-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.2);
+}
 
-    .btn.btn-apple-toggle:active {
-      transform: scale(0.96);
-    }
+.btn.btn-apple-toggle:active {
+  transform: scale(0.96);
+}
 
-    /* Premium Icon Alignments inside Buttons */
-    .btn-apple-toggle ion-icon {
-      font-size: 1.15rem;
-    }
+/* IONICONS */
+.btn-apple-toggle ion-icon {
+  font-size: 1.15rem;
+}
 
-    /* Spotify Card Aesthetic Modifications */
-    .card.album-card {
-      background-color: var(--spotify-card);
-      border: none;
-      border-radius: 10px;
-      padding: 16px;
-      transition: var(--smooth-transition);
-    }
+/* CARD STYLES */
+.card.album-card {
+  background-color: var(--spotify-card);
+  border: none;
+  border-radius: 10px;
+  padding: 16px;
+  transition: var(--smooth-transition);
+}
     
-    .card.album-card:hover {
-      background-color: var(--spotify-card-hover);
-      transform: translateY(-8px);
-    }
+.card.album-card:hover {
+  background-color: var(--spotify-card-hover);
+  transform: translateY(-8px);
+}
 
-    .card-img-container {
-      position: relative;
-      width: 100%;
-      padding-top: 100%; 
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.6);
-    }
+.card-img-container {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; 
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+}
 
-    .card-img-container img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: var(--smooth-transition);
-    }
+.card-img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--smooth-transition);
+}
 
-    .card.album-card:hover .card-img-container img {
-      transform: scale(1.04);
-    }
+.card.album-card:hover .card-img-container img {
+  transform: scale(1.04);
+}
 
-    /* Spotlight Section Panel Styles */
-    .spotlight-panel {
-      background: linear-gradient(180deg, #1c1c1e 0%, var(--spotify-black) 100%);
-      border-radius: 16px;
-      border: 1px solid rgba(255, 255, 255, 0.08);
-    }
+/* Spotlight/Highlight Section Styles */
+.spotlight-panel {
+  background: linear-gradient(180deg, #1c1c1e 0%, var(--spotify-black) 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
 
-    /* Cleaned up List items without override flags */
-    .list-group-item.custom-track-item {
-      background-color: rgba(255, 255, 255, 0.02);
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      color: #ffffff;
-      margin-bottom: 8px;
-      border-radius: 6px;
-      transition: var(--smooth-transition);
-    }
+.spotlight-img {
+  max-width: 360px;
+  width: 100%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);
+}
 
-    .list-group-item.custom-track-item:hover {
-      background-color: rgba(255, 255, 255, 0.06);
-    }
+.list-group-item.custom-track-item {
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  transition: var(--smooth-transition);
+}
 
-    .accent-text {
-      color: var(--apple-accent);
-    }
+.list-group-item.custom-track-item:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
 
-    .custom-muted-text {
-      color: #b3b3b3;
-    }
+.accent-text {
+  color: var(--apple-accent);
+}
 
+.custom-muted-text {
+  color: #b3b3b3;
+}
 
 .main-cover-album {
   max-width: 360px;

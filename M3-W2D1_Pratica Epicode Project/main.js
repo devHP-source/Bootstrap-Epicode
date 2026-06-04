@@ -77,9 +77,9 @@ let builtMarkupString = "";
             </div>
             
             <div class="pt-2 mt-1 border-top border-secondary-subtle">
-              <div class="d-flex justify-content-between align-items-center" style="font-size: 0.75rem;">
+              <div class="d-flex justify-content-between align-items-center small">
                 <span class="custom-muted-text text-truncate me-2">🎧 ${item.genre}</span>
-                <span class="badge bg-dark border border-secondary text-white px-2 py-1" style="font-size: 0.65rem; font-weight: 500;">${item.length}</span>
+                <span class="badge bg-dark border border-secondary text-white px-2 py-1 fw-medium">${item.length}</span>
               </div>
             </div>
           </div>
