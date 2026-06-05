@@ -53,4 +53,4 @@ Il progetto include e referenzia i seguenti file grafici per le copertine degli 
 
 ## ✍️ Autore
 
-Progettato e sviluppato con cura da **devByPau** &copy; 2026
+Progettato e sviluppato con cura da **devByPau** &copy;2026
